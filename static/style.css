@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('BG4.avif');
+    background-size: cover;
+   
+}
+
+.chat-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+.chat-head-container{
+    display: flex;
+    background-color: #0056b3;
+    align-items: center;
+    height: 100px;
+}
+.chat-head{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+.chat-image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 70px; /* Adjust the size of the circle as needed */
+    height: 70px; /* Adjust the size of the circle as needed */
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.chat-box {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 20px;
+}
+.user-message-body{
+    text-align: right;
+    margin: 10px;
+}
+.user-message-container {
+    display: inline-block; /* Make the container only as wide as its content */
+    background-color: #007bff;
+    padding: 12px;
+    border-radius: 14px; /* Optional: add some padding for better visual appearance */
+}
+
+.user-message {
+    text-align: right;
+    color: white;
+    display: inline-block
+}
+.bot-message-container{
+    display: inline-block; /* Make the container only as wide as its content */
+    background-color: #ECF5F6;
+    padding: 12px;
+    border-radius: 14px;
+}
+.bot-message {
+    text-align: left;
+    color: #333;
+}
+.input-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+input[type="text"] {
+    width: 84%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 15px; /* Added to make the input and button inline */
+}
+
+button {
+    width: 15%; /* Adjusted width */
+    padding: 10px;
+    cursor: pointer;
+    border : none;
+    border-radius: 20px;
+    display: inline-block; /* Added to make the input and button inline */
+}
+.send-image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 48px; /* Adjust the size of the circle as needed */
+    height: 48px; /* Adjust the size of the circle as needed */
+    margin-left: 18px;
+    margin-right: 18px;
+}

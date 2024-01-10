@@ -1,0 +1,110 @@
+{
+    "intents": [
+    {
+        "tag": "general_greeting",
+        "patterns": ["Hello", "Hi", "Hey", "Good day", "Greetings"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! What can I help you with?", "Hey! Feel free to ask me anything.", "Good day! How may I be of service?", "Greetings! What brings you here today?"]
+        },
+        {
+        "tag": "general_farewell",
+        "patterns": ["Goodbye", "Bye", "See you later", "Farewell"],
+        "responses": ["Goodbye! If you have more questions, don't hesitate to return.", "Bye! Have a great day!", "See you later! Feel free to reach out whenever you need assistance.", "Farewell! Take care and come back soon."]
+        },
+        {
+        "tag": "how_are_you",
+        "patterns": ["How are you?", "How are you doing?", "How's it going?"],
+        "responses": ["I'm just a computer program, so I don't have feelings, but I'm here and ready to help you!", "I don't have emotions, but thanks for asking! How can I assist you today?", "I'm doing well in my virtual world. How can I assist you?", "No feelings here, but I'm ready to assist you. What can I do for you today?"]
+        },
+      {
+        "tag": "scoring",
+        "patterns": ["How is scoring done in basketball?", "Explain the point system in basketball", "Tell me about scoring in the NBA"],
+        "responses": ["In basketball, scoring is achieved by successfully shooting the ball through the opponent's basket. A field goal inside the three-point arc is worth two points, and a shot from beyond the arc earns three points. Free throws, awarded for certain fouls, are worth one point each."]
+      },
+      {
+        "tag": "fouls",
+        "patterns": ["What constitutes a foul in basketball?", "Explain the rules for personal fouls", "How many fouls before a player is disqualified?"],
+        "responses": ["A foul in basketball occurs when a player makes illegal physical contact with an opponent. Common fouls include pushing, holding, and tripping. A player is disqualified from the game after accumulating a set number of personal fouls, which varies depending on the level of play."]
+      },
+      {
+        "tag": "violations",
+        "patterns": ["What are some common violations in basketball?", "Explain the rules for traveling", "Tell me about the shot clock violation"],
+        "responses": ["Common violations in basketball include traveling (taking too many steps without dribbling), double dribble (dribbling with both hands or stopping and restarting), and shot clock violations (failing to attempt a shot within a specified time). Understanding these rules is crucial for fair gameplay."]
+      },
+      {
+        "tag": "possession",
+        "patterns": ["How does possession work in basketball?", "Explain the jump ball rule", "Tell me about alternating possession"],
+        "responses": ["Possession in basketball is determined by jump ball situations at the start of the game and overtime periods. Alternating possession is used after stoppages, with the team not awarded the previous possession arrow gaining the next possession. This system ensures fairness in gaining and losing possession."]
+      },
+      {
+        "tag": "overtime",
+        "patterns": ["Explain the rules for overtime in basketball", "How does overtime work?", "Tell me about sudden-death overtime"],
+        "responses": ["Overtime in basketball is an additional period played to break ties. In the NBA, it consists of a 5-minute period, and if the score remains tied, additional overtime periods are played. There is no sudden-death overtime, and the game continues until a winner is determined."]
+      },
+      {
+        "tag": "technical",
+        "patterns": ["What is a technical foul in basketball?", "Explain the rules for technical fouls", "How are technical fouls assessed?"],
+        "responses": ["A technical foul in basketball is a violation of the game's sportsmanship rules. It can be assessed for various reasons, such as unsportsmanlike conduct or excessive arguing with referees. Technical fouls result in free throws for the opposing team and can also lead to ejections if accumulated."]
+      },
+      {
+        "tag": "shotclock",
+        "patterns": ["What is the shot clock in basketball?", "Explain the shot clock rule", "How much time is on the shot clock?"],
+        "responses": ["The shot clock is a timer used in basketball to ensure teams attempt a shot within a specified time. In the NBA, the shot clock is set to 24 seconds. If a team fails to take a shot before the shot clock expires, the opponent gains possession."]
+      },
+      {
+        "tag": "backcourt",
+        "patterns": ["What is a backcourt violation?", "Explain the rules for backcourt violations", "How is a backcourt violation called?"],
+        "responses": ["A backcourt violation occurs when an offensive player crosses the midcourt line and then returns to the backcourt before establishing possession in the frontcourt. This results in a turnover, and the opposing team gains possession."]
+      },
+      {
+        "tag": "doublefoul",
+        "patterns": ["What is a double foul?", "Explain the rules for double fouls", "How are double fouls handled?"],
+        "responses": ["A double foul in basketball occurs when two opponents commit fouls against each other simultaneously. In such cases, no free throws are awarded, and the possession arrow is used to determine which team gets the ball. It's a way to address situations where both players are at fault."]
+      },
+      {
+        "tag": "threeinkey",
+        "patterns": ["What is the three-second rule in basketball?", "Explain the rules for three seconds in the key", "How is the three-second violation enforced?"],
+        "responses": ["The three-second rule in basketball prohibits an offensive player from remaining in the key (the painted area in front of the basket) for more than three consecutive seconds. If a player violates this rule, it results in a turnover, and the opposing team gains possession."]
+      },
+      {
+        "tag": "jumpball",
+        "patterns": ["How is the jump ball conducted?", "Explain the rules for jump balls", "When does a jump ball occur?"],
+        "responses": ["A jump ball is used to start the game and overtime periods. It involves two players from opposing teams jumping to tap the ball when the referee tosses it into the air at the center circle. The team that gains possession from the jump ball alternates with the possession arrow for subsequent jump-ball situations."]
+      },
+      {
+        "tag": "clearpath",
+        "patterns": ["What is a clear path foul in basketball?", "Explain the rules for clear path fouls", "When is a clear path foul called?"],
+        "responses": ["A clear path foul in basketball occurs when a defender fouls an offensive player who has a clear path to the basket and no defender between them. In this case, the offensive team is awarded free throws, and they retain possession of the ball."]
+      },
+      {
+        "tag": "traveling",
+        "patterns": ["What is traveling in basketball?", "Explain the rules for traveling", "How is traveling determined by referees?"],
+        "responses": ["Traveling in basketball refers to a player moving one or both feet illegally. This typically involves taking too many steps without dribbling or dragging a pivot foot. Referees watch for this violation, and when called, it results in a turnover, giving possession to the opposing team."]
+      },
+      {
+        "tag": "charging",
+        "patterns": ["What is a charging foul?", "Explain the rules for charging", "How is a charging foul different from a blocking foul?"],
+        "responses": ["A charging foul in basketball occurs when an offensive player with the ball collides with a defensive player who has established a legal defensive position. The offensive player is called for the foul, and the opposing team gains possession. It is distinct from a blocking foul, where the defender is deemed to be moving."]
+      },
+      {
+        "tag": "goal-tending",
+        "patterns": ["What is goal-tending?", "Explain the rules for goal-tending in basketball", "How is goal-tending determined by officials?"],
+        "responses": ["Goal-tending in basketball is a violation that occurs when a defensive player interferes with a shot on its way down, either by blocking it above the rim or touching it while it's on the way down. This results in the offensive team being awarded points for the shot."]
+      },
+      {
+        "tag": "substitutions",
+        "patterns": ["How do substitutions work in basketball?", "Explain the rules for player substitutions", "When can teams make substitutions?"],
+        "responses": ["Teams can make substitutions during stoppages in play, such as timeouts, free throws, and certain dead-ball situations. Substituted players must enter and exit the court at the designated substitution area. Failure to comply with substitution rules can result in a delay-of-game warning."]
+      },
+      {
+        "tag": "technicalfreethrow",
+        "patterns": ["What happens during a technical foul free throw?", "Explain the rules for technical foul free throws", "How many free throws are awarded for a technical foul?"],
+        "responses": ["When a technical foul is called, the offended team is awarded one or more free throws. The exact number of free throws depends on the nature of the technical foul. The opposing team is also awarded possession of the ball after the free throws."]
+      },
+      {
+        "tag": "illegaldefense",
+        "patterns": ["What is illegal defense in basketball?", "Explain the rules for illegal defense", "How is illegal defense called by referees?"],
+        "responses": ["Illegal defense refers to a defensive player not actively guarding an opponent. In the NBA, certain defensive rules exist to prevent zone defenses. Referees monitor player positioning, and if an illegal defense is detected, the offensive team is awarded free throws."]
+      }
+    ]
+  }
+  

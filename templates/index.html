@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Chatbot</title>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-head-container">
+            <div class="chat-image">
+                <img src="../static/robot-face.jpg" alt="Profile Image" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="chat-head">Chat with TomBot</div>
+        </div>
+        <div class="chat-box" id="chat-box">
+            <!-- Chat messages will appear here -->
+            <div class="bot-message">Hello! My name is TomBot. You can ask me any basketball Game Rules</div>
+        </div>
+        <div class = "input-box">
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <div onclick="sendMessage()"  class="send-image"><img src="../static/send.jpg" alt="Send Image" style="width: 100%; height: 100%; object-fit: cover;"></div>
+    </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
